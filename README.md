@@ -3,6 +3,8 @@ Implementation of Grammar Type Checker
 
 A regular language is one which can be represented by a regular grammar, described using a regular expression, or accepted using an NFA or a DFA.
 
+Type-3 grammars must have a single non-terminal on the left-hand side and a right-hand side consisting of a single terminal or single terminal followed by a single non-terminal.
+
 Type 2 - Context-Free Languages
 A Context-Free Grammar (CFG) is one whose production rules are of the form: The productions must be in the form A → γ where A ∈ N (Non terminal) and γ ∈ (T ∪ N)* (String of terminals and non-terminals).
 
